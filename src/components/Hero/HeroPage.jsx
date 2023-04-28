@@ -1,5 +1,4 @@
 import React from "react";
-// import { Container } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import {BsFillEarFill, BsChevronRight} from "react-icons/bs";
 import { Container, Row, Col } from 'react-bootstrap';
@@ -21,7 +20,7 @@ const HeroPage = () => {
         </Col>
       </Row>
       <Row className="d-flex justify-content-center align-items-center">
-        <Col className=" text-center justify-content-start pt-4">
+        <Col className=" text-center justify-content-start pt-4" >
           <h4 className="p-2">Public Transport me <br/> Lagi hai Bheed Baad!</h4>
           <h4 className="p-2">Toh ab Btayiye, <br/>Gadi Lene ka kab hai vichar?</h4>
         </Col>
@@ -60,7 +59,7 @@ const HeroPage = () => {
        
         <Col className="mx-auto pb-2">
           <h4 style={{color: 'red'}}>Lower Interest Rate and Much More, Just for You</h4>
-          <h6 style={{letterSpacing: "1.8px"}}>Connect with us and get offer like never before and take home a service of your dream</h6>
+          <h6 >Connect with us and get offer like never before and take home a service of your dream</h6>
         </Col>
       </Row>
     </Container>

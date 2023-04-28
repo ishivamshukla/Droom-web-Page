@@ -1,4 +1,52 @@
-# Getting Started with Create React App
+# Droom Web Page
+
+> ## [Shivam Shukla](https://ishivamshukla.in)
+
+</br>
+Droom Single web page Using React ---- Working in Progress
+
+---
+## Using  -
+ 
+
+ -  HTML
+ -  CSS
+ -  ReactJS
+ -  Bootstrap
+ -  Image
+
+---
+
+
+## Layout
+
+-   Top Header with Logo 
+-   Navbar with Icons and using Absolute Positioning 
+-   Banner Dhamaka Offer 
+-   Hero with Image and Heading and Information 
+-   Footer banner vehical details 
+-   bottom footer with socail media icons 
+
+
+<br/>
+
+### Checkout the live website [here]().
+
+
+<br>
+
+
+
+## How the website looks like
+
+
+![Desktop](./src/)
+
+<br/>
+
+
+---
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

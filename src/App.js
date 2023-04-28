@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavbarPage from './components/Navbar/NavbarPage';
+import BannerPage from './components/Banner/BannerPage';
+import HeroPage from './components/Hero/HeroPage';
+import FooterPage from './components/Footer/FooterPage';
+import HeaderPage from './components/header/HeaderPage';
+import FooterBanner from './components/Footer/FooterBanner';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    
+    <HeaderPage />    {/* Top Header with LOgo */}
+    <NavbarPage />    {/* Navbar with Icons and using Absolute Positioning */}
+    <BannerPage />    {/* Banner Dhamaka Offer */}
+    <HeroPage />      {/* Hero with Image and Heading and Information */}
+    <FooterBanner />  {/* Footer banner vehical details */}
+    <FooterPage />    {/* bottom footer with socail media icons */}
+    </>
+  )
 }
 
-export default App;
+export default App

@@ -11,7 +11,7 @@ const NavbarPage = () => {
     <Navbar fluid style={{ position: 'absolute', top: 120,  left: 0, right: 0  }} className='w-75 bg-body start-50 translate-middle d-flex flex-wrap justify-content-center ' >
       
       <Nav className="mx-auto" >
-        <Nav.Item  >
+        <Nav.Item >
           <Nav.Link href="/" className="d-flex flex-column align-items-center">
             <FaHome size={34} color='green'/>
             <span style={{ fontSize: '12px' }}>Buy</span>

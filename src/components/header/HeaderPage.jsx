@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const HeaderPage = () => {
   return (
     <>
-    <Navbar  className='bg-body mb-4 pb-4' >
+    <Navbar className='bg-body mb-4 pb-4' >
       <Container className=' justify-content-center mb-4 pb-4'>
         <Navbar.Brand  href="/">
           <img

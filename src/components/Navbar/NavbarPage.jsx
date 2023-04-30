@@ -17,37 +17,37 @@ const NavbarPage = () => {
         <Col  className={'px-4'} >
           <Nav.Link href="/" className={"d-flex flex-column align-items-center"}>
             <FaHome size={34} color={'green'}/>
-            <span style={{ fontSize: '12px' }}>Buy</span>
+            <span className={'text-black'} >Buy</span>
           </Nav.Link>
         </Col>
         <Col  className={'px-4'} >
         <Nav.Link href="/" className={"d-flex flex-column align-items-center"}>
             <FaUser size={34} color={'green'}/>
-            <span style={{ fontSize: '12px' }}>Sell</span>
+            <span className={'text-black'}>Sell</span>
           </Nav.Link>
         </Col>
         <Col  className={'px-4'} >
         <Nav.Link href="/" className={"d-flex flex-column align-items-center"}>
             <FaCog size={34} color={'green'}/>
-            <span style={{ fontSize: '12px' }}>Exchange</span>
+            <span className={'text-black'}>Exchange</span>
           </Nav.Link>
         </Col>
         <Col  className={'px-4'} >
         <Nav.Link href="/" className={"d-flex flex-column align-items-center"}>
             <FaBell size={34} color={'green'} />
-            <span style={{ fontSize: '12px' }}>Loan</span>
+            <span className={'text-black'}>Loan</span>
           </Nav.Link>
         </Col>
         <Col  className={'px-4'}  >
         <Nav.Link href="/" className={"d-flex flex-column align-items-center"}>
             <FaEnvelope size={34} color={'green'} />
-            <span style={{ fontSize: '12px' }}>Insurance</span>
+            <span className={'text-black'}>Insurance</span>
           </Nav.Link>
         </Col>
         <Col  className={'px-4'} >
         <Nav.Link href="/" className={"d-flex flex-column align-items-center"}>
             <FaChartBar size={34} color={'green'}/>
-            <span style={{ fontSize: '12px' }}>RSA</span>
+            <span className={'text-black'}>RSA</span>
           </Nav.Link>
         </Col>
         </Row>

@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import NavbarPage from './components/Navbar/NavbarPage';
 import BannerPage from './components/Banner/BannerPage';
 import HeroPage from './components/Hero/HeroPage';

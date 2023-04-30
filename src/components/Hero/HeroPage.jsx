@@ -15,7 +15,7 @@ const HeroPage = () => {
       </Row>
       <Row className={"justify-content-center text-center"}>
         <Col>
-          <h3>Suno <BsFillEarFill color='#E8BD0D' /> Suno <BsFillEarFill color='#A77B06' /> Suno <BsFillEarFill color='#A77B06' /></h3>
+          <h3>Suno <BsFillEarFill color='#A77B06' /> Suno <BsFillEarFill color='#A77B06' /> Suno <BsFillEarFill color='#A77B06' /></h3>
           <h3>Mela Lg Gyaa, Loan Kaaa!</h3>
         </Col>
       </Row>
